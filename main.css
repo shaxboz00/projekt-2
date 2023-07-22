@@ -12,3 +12,43 @@
   display: flex;
   flex-direction: column;
 }
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 26px 132px 0px 135px;
+}
+
+nav li {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #b9b9b9;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+a:hover {
+  color: white;
+  font-size: 18px;
+}
+
+button {
+  width: 144px;
+  height: 47px;
+  padding: 14px 42px;
+  background-color: rgba(0, 252, 227, 1);
+  border-radius: 100px;
+  color: #0f0b10;
+  font-size: 16px;
+  font-weight: 550;
+  cursor: pointer;
+}

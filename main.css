@@ -114,3 +114,8 @@ p {
   align-items: center;
   gap: 20px;
 }
+
+.photo img {
+  width: 500px;
+  height: 740px;
+}

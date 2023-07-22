@@ -23,6 +23,10 @@ header {
   padding: 26px 132px 0px 135px;
 }
 
+ul {
+  list-style-type: none;
+}
+
 nav li {
   display: flex;
   gap: 40px;
@@ -39,6 +43,7 @@ li a {
 a:hover {
   color: white;
   font-size: 18px;
+  text-decoration: dashed;
 }
 
 button {

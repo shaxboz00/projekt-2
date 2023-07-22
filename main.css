@@ -67,3 +67,17 @@ button {
     display: flex;
     align-items: center;
 }
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 135px;
+}
+
+h1{
+  width: 850px;
+  font-size: 64px;
+  font-weight: 600;
+  color: white;
+}
+
